@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #141414;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header .logo img {
+    height: 50px;
+}
+
+.header .nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header .nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('https://i.teknolojioku.com/2/1280/720/storage/files/images/2023/03/14/netflix-dizileri-b2tj-cover-jh1F_cover.png') no-repeat center center/cover;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+.hero .cta-button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero .cta-button:hover {
+    background-color: #f40612;
+}
+
+.content {
+    padding: 50px 20px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+.card {
+    flex: 0 0 20%;
+    margin-right: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #141414;
+}
